@@ -97,10 +97,10 @@ span:last-of-type {
 .btn:hover {
   opacity: 0.7;
 }
-.navbar-nav i{
+.navbar-nav i {
   color: #ff7500;
   margin: 10px 10px 10px 20px;
-  background: #fff
+  background: #fff;
 }
 
 /* Start banner styling */
@@ -242,14 +242,14 @@ span:last-of-type {
   margin: 30px 0;
   width: 75%;
 }
-.sale-title span{
+.sale-title span {
   font-family: var(--Roboto);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #ff7500;
 }
-.sale-img img{
+.sale-img img {
   position: absolute;
   width: 40%;
   right: 60px;
@@ -257,52 +257,52 @@ span:last-of-type {
 }
 
 /* Start  footer styling */
-footer{
+footer {
   padding: 1.2rem;
   width: 100%;
   background: #f8f8f8;
 }
-.footer-box{
+.footer-box {
   padding: 1.2rem 0;
 }
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-top-logo{
+.footer-top-logo {
   display: flex;
   align-items: center;
 }
-.footer-top-logo img{
+.footer-top-logo img {
   margin-right: 10px;
 }
-.footer-top .icon{
+.footer-top .icon {
   width: 24px;
   display: inline-block;
   margin: 0 5px;
   padding: 4px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   border-radius: 50%;
 }
-.footer-top .icon:hover{
+.footer-top .icon:hover {
   border: 2px solid #ff7500;
 }
-.footer-line{
+.footer-line {
   width: 100%;
   background: #252420;
   height: 2px;
   border: none;
   margin-top: 50px;
 }
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem 0;
   width: 90%;
   margin-top: 50px;
 }
-.list-box ul{
+.list-box ul {
   font-family: var(--Roboto);
   font-weight: 400;
   font-size: 16px;
@@ -310,78 +310,76 @@ footer{
   color: #252420;
   list-style: none;
 }
-.list-box ul li{
+.list-box ul li {
   padding: 10px 0;
 }
 
-@media only screen and (max-width: 800px){
-  .navbar-nav a{
+@media only screen and (max-width: 1242px) {
+  .navbar-nav a {
     display: none;
   }
-  .banner-box{
+  .banner-box {
     display: block;
   }
-  .title{
+  .title {
     width: 100%;
   }
-  .title h1{
+  .title h1 {
     width: 100%;
   }
-  .title p{
+  .title p {
     width: 100%;
   }
-  .img{
+  .img {
     width: 100%;
   }
-  .img img{
+  .img img {
     margin: 0 auto;
     width: 70%;
     object-fit: cover;
   }
-  .hero{
+  .hero {
     padding: 0 1.2rem;
   }
-  .reasons .title h1{
+  .reasons .title h1 {
     width: 100%;
   }
   .boxes {
     display: block;
   }
-  .box{
+  .box {
     width: 100%;
   }
-  .box img{
+  .box img {
     display: inline-block;
   }
-  .box2{
+  .box2 {
     margin: 0;
   }
-  .box p{
+  .box p {
     width: 80%;
   }
-  .sale{
+  .sale {
     padding: 0 19.2px;
   }
-  .sale-box{
+  .sale-box {
     display: block;
     align-items: center;
     width: 100%;
   }
-  .sale-title{
+  .sale-title {
     width: 100%;
   }
-  .sale-img{
+  .sale-img {
     display: none;
   }
-  .footer-top{
+  .footer-top {
     width: 100%;
   }
-  .footer-bottom{
+  .footer-bottom {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     row-gap: 50px;
   }
 }
-
-
