@@ -315,14 +315,14 @@ footer {
   padding: 10px 0;
 }
 
-@media only screen and (max-width: 1242px) {
+@media only screen and (max-width: 800px) {
   .navbar-nav a {
     display: none;
   }
-  .logo{
+  .logo {
     width: 50%;
   }
-  .logo span{
+  .logo span {
     font-size: 16px;
   }
   .logo img {
@@ -331,7 +331,7 @@ footer {
     display: inline-block;
     margin: 0 10px;
   }
-  .btn{
+  .btn {
     font-weight: 600;
     font-size: 8px;
     padding: 6px 12px;
