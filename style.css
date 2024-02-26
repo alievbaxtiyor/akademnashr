@@ -319,6 +319,23 @@ footer {
   .navbar-nav a {
     display: none;
   }
+  .logo{
+    width: 50%;
+  }
+  .logo span{
+    font-size: 16px;
+  }
+  .logo img {
+    width: 16px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .btn{
+    font-weight: 600;
+    font-size: 8px;
+    padding: 6px 12px;
+  }
   .banner-box {
     display: block;
   }
@@ -327,9 +344,11 @@ footer {
   }
   .title h1 {
     width: 100%;
+    font-size: 30px;
   }
   .title p {
     width: 100%;
+    font-size: 10px;
   }
   .img {
     width: 100%;
@@ -337,7 +356,7 @@ footer {
   .img img {
     margin: 0 auto;
     width: 70%;
-    object-fit: cover;
+    height: 100%;
   }
   .hero {
     padding: 0 1.2rem;
